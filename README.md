@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Leaving Certificate Computer Science Course Work Report 2024</title>
+  <title>Leaving Certificate Computer Science Course Work Report</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -25,7 +25,8 @@
       <a href="#investigate" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Investigation
         and Plan</a>
       <a href="#design" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Design</a>
-      <a href="#implement" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Implementation</a>
+      <a href="#implement"
+        class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Implementation</a>
       <a href="#testing" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Testing</a>
       <a href="#evaluation" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Evaluation</a>
       <a href="#references" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">References</a>
@@ -46,23 +47,31 @@
 
   <!-- Header -->
   <header class="w3-container w3-black w3-center" style="padding:128px 16px">
-    <h1 class="w3-margin w3-jumbo">Leaving Cert Computer Science 30% Project Report 2024</h1>
-    <p class="w3-xlarge">Student Exam Number:EXAMPLE :123456 <!-- Add your exam number here --></p>
+    <h1 class="w3-margin w3-jumbo">Leaving Cert Computer Science 30% Project Report</h1>
+    <p class="w3-xlarge">Student Exam Number:</p>
+
   </header>
 
   <!-- First Grid -->
   <div id="meetBrief" class="w3-row-padding w3-padding-64 w3-container">
     <div class="w3-content">
       <div class="w3-twothird">
-        <h1>Meeting the Brief</h1>
-        <h5 class="w3-padding-32">BASIC REQUIREMENT ONE:
-         YOU WILL FILL IN THE BASIC REQUIRMENT HERE
-        </h5>
-        <p class="w3-text-grey">
-          <br><br>
-          <br><br>
+        <h1>Meeting the Brief (max 500 words)</h1>
+        <h5 class="w3-padding-32">Meeting the basic and advanced requirements of the brief.</h5>
+        <p class="w3-text-grey">As part of your report you are required to include a video showing the artefact in
+          operation. The
+          video must not be more than 5 minutes in duration and be no more than 1GB in size. <br><br>
+          The video should be used to demonstrate how your artefact meets the basic and/or advanced
+          requirements of the brief. It is suggested that you deal with each requirement you attempted in
+          the video and demonstrate how you have achieved it.
+          <br></br>You may wish to include a brief written description with images demonstrating how your artefact
+          meets each of the requirements. You will not be penalised marks for not including any text if your
+          video is sufficient in describing how you meet each of the requirements.
         </p>
+
+
       </div>
+
       <div class="w3-third w3-center">
         <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
       </div>
@@ -75,11 +84,23 @@
       <div class="w3-third w3-center">
         <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
       </div>
+
       <div class="w3-twothird">
         <h1>Investigation and Plan (approximately 400 words)</h1>
-        TO BE RESEARCHED
-        <p class="w3-text-grey">
+
+        Research into the context of the brief, existing solutions and initial thoughts on your own project.
+        A detailed description of the chosen project and the objectives.
+
+        <p class="w3-text-grey">In this section of the report you should show evidence of your own research on the
+          thematic brief,
+          including research on existing solutions, systems or ideas that are aligned to the brief. As a starting
+          point you may consider using the URLs provided earlier in this document, but please note that this
+          list is neither exclusive nor exhaustive. All references should be included in the reference section
+          of your report. <br><br>
+          Based on your research you should provide a detailed description of your chosen project. You
+          should explain clearly the objectives of your project.
         </p>
+
       </div>
     </div>
   </div>
@@ -89,12 +110,20 @@
     <div class="w3-content">
       <div class="w3-twothird">
         <h1>Design (approximately 400 words)</h1>
-        I WANTED MY EMBEDDED SYSTEM TO DO.....
+
+        A clear detailed description of how the project will be developed.
+        A flowchart diagram to show how the project will work.
+        A description of how abstraction and modelling will be applied.
+
         <p class="w3-text-grey">This section of the report should contain a clear description of the design of your
-          project and how it will meet your objectives. You should include a detailed flowchart which gives an overview
-          of how your system will work. You should explain how modeling and abstraction will be applied to your project.
-        </p>
+          project and how
+          it will meet your objectives. <br><br>
+          You should include a detailed flowchart which gives an overview of how your system will work.
+          You should explain how modelling and abstraction will be applied to your project.</p>
+
+
       </div>
+
       <div class="w3-third w3-center">
         <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
       </div>
@@ -107,97 +136,126 @@
       <div class="w3-third w3-center">
         <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
       </div>
+
       <div class="w3-twothird">
         <h1>Implementation (approximately 500 words)</h1>
-        An overview covering the key milestones of the development process. Explain a problem that was encountered in
-        the development of the project and how it was overcome. An explanation of a piece of code or algorithm that
-        was important in the development of the project.
+
+        An overview covering the key milestones of the development process.
+        Explain a problem that was encountered in the development of the project and how it was overcome.
+        An explanation of a piece of code or algorithm that was important in the development of the project.
+
         <p class="w3-text-grey">This section should provide a clear description of how the system was implemented. You
-          should explain the process you went through in creating your artifact. You should explain one of the problems
-          that you encountered during the implementation and describe how you overcame the problem. You should select
-          and explain an algorithm or section of code you designed that was essential in creating your project.
+          should
+          explain the process you went through in creating your artefact. <br><br>
+          You should explain one of the problems that you encountered during the implementation and
+          describe how you overcame the problem. <br><br>
+          You should select and explain an algorithm or section of code you designed that was essential in
+          creating your project.
         </p>
+
       </div>
+      <br><br>
+      <div id="testing" class="w3-twothird">
+        <h1>Testing (approximately 350 words)</h1>
+
+        An overview of the testing carried out.
+        A detailed test case table.
+
+        <p class="w3-text-grey">You should describe the extent of testing you carried out, and major problems you
+          encountered
+          during the testing process. Details of testing should include the type of testing carried out and any
+          implications to the design as a result of the testing.<br><br>
+          You should include a test table to highlight your test cases, expected results, outcomes and test
+          data that were used.
+        </p>
+
+      </div>
+
+
     </div>
   </div>
+
 
   <!-- Fifth Grid -->
-  <div id="testing" class="w3-row-padding w3-padding-64 w3-container">
-    <div class="w3-content">
-      <div class="w3-third w3-center">
-        <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
-      </div>
-      <div class="w3-twothird">
-        <h1>Testing (approximately 350 words)</h1>
-        An overview of the testing carried out. A detailed test case table.
-        <p class="w3-text-grey">After my new idea was established, I would test after each new function was put into
-          place. I ran into issues, however, when I used the pickle function. I have run out of time and I could not
-          have figured it out.
-          <!-- You should add your detailed test case table here -->
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Sixth Grid -->
   <div id="evaluation" class="w3-row-padding w3-padding-64 w3-container">
     <div class="w3-content">
       <div class="w3-twothird">
         <h1>Evaluation (approximately 350 words)</h1>
-        An evaluation of your project based on your initial design and your project objectives. Suggest how you would
-        further improve/iterate this project.
-        <p class="w3-text-grey">My final project I am not happy with as I ran out of time and I failed to reach the other
-          requirements. I would pay more attention to the design part of my code and prioritize the advanced
-          requirements in the future.</p>
+
+        An evaluation of your project based on your initial design and your project objectives.
+        Suggest how you would further improve/iterate this project.
+
+        <p class="w3-text-grey">You should evaluate the final product in relation to your initial design and your
+          project objectives
+          set out in section 2 of the report. <br> <br>
+          You should suggest, with justification, how your artefact could be improved or iterated upon in the
+          future.</p>
+
       </div>
+
       <div class="w3-third w3-center">
         <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
       </div>
     </div>
   </div>
 
-  <!-- Seventh Grid -->
+  <!-- Sixth Grid -->
   <div id="references" class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
     <div class="w3-content">
       <div class="w3-third w3-center">
         <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
       </div>
+
       <div class="w3-twothird">
         <h1>References</h1>
-        Word count: <!-- Add your word count here -->
-        <h5 class="w3-padding-32">I followed a YouTube video in my attempt to learn the pickle function which I will
-          leave the link to the video here. <a href="https://www.youtube.com/watch?v=XzkhtWYYojg">YouTube Video</a>
-        </h5>
+
+        You must also include references and/or a bibliography.
+        Include a summary of the word count of the report, including the total word count.
+
+        <h5 class="w3-padding-32">You must reference any information used in your report or in the creation of your
+          artefact, such
+          as: publications including books, professional journals and government reports; online sources and
+          other types of media; source code. To include such material without properly referencing the
+          source will be considered plagiarism. The word count in this section does not count towards your
+          overall word count.</h5>
+
         <p class="w3-text-grey"></p>
       </div>
     </div>
   </div>
 
-  <!-- Eighth Grid (Summary Word Count) -->
+
+  <!-- Seventh Grid -->
   <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
     <div class="w3-content">
       <div class="w3-third w3-center">
         <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
       </div>
+
       <div class="w3-twothird">
-        <h1>Summary Word Count</h1>
+        <h1>Summary Word Count </h1>
         <h5 class="w3-padding-32">You must include a summary of the word count of your report. This could be presented
-          in the form of a table, as shown below, and should show the word count for each section as well as the overall
-          word count. (SEE BRIEF for EXAMPLE TABLE)</h5>
+          in the
+          form of a table, as shown below, and should show the word count for each section as well as the
+          overall word count. (SEE BRIEF for EXAMPLE TABLE)</h5>
+
         <p class="w3-text-grey"></p>
+
       </div>
     </div>
   </div>
 
+
   <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+
   </div>
 
   <!-- Footer -->
   <footer class="w3-container w3-padding-64 w3-center w3-opacity">
     <div class="w3-xlarge w3-padding-32">
     </div>
-  </footer>
 
+  </footer>
   <script>
     // Used to toggle the menu on small screens when clicking on the menu button
     function myFunction() {
@@ -209,6 +267,8 @@
       }
     }
   </script>
+
+
 </body>
 
 </html>
